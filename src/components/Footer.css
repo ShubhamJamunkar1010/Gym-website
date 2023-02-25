@@ -1,0 +1,67 @@
+.footer{
+    background-image: url(https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/bronxltdlm/kulturistas-m7oWrM175eu7nJ9O.png);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+.left-f{
+    color: rgb(160, 121, 49);
+    margin-top: 200px;
+    margin-left: 100px;
+    flex: 1;
+}
+.stroke-textt{
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:orange;
+  }
+.left-f > div:nth-child(1){
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.left-f > div:nth-child(2){
+    margin-bottom: 10px;
+}
+.social-icons{
+    display: flex;
+    align-items: center;
+}
+.social-icons img{
+    margin-top: 260px;
+    cursor: pointer;
+}
+.social-icons img:nth-child(1){
+    width: 60px;
+}
+.social-icons img:nth-child(2){
+    width: 40px;
+    margin-left: 16px;
+}
+.social-icons img:nth-child(3){
+    width: 50px;
+    margin-left: 25px;
+}
+.social-icons img:nth-child(4){
+    width: 40px;
+    margin-left: 25px;
+}
+.right-f{
+    flex: 3;
+}
+.address{
+    color: rgb(160, 121, 49);
+    margin-top: 200px;
+    margin-left: 200px;
+}
+.address > span{
+    font-size: 30px;
+    font-weight: bold;
+}
+.address > div{
+    margin-top: 10px;
+}
+.address > div:nth-child(2){
+    margin-top: 25px;
+    
+}

@@ -1,0 +1,91 @@
+.testimonials{
+    display: flex;
+    padding: 5px;
+    margin-top: 0px;
+    margin-bottom: 60px;
+   
+}
+.left-t{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    flex: 1;
+    position: relative;
+}
+
+.testimonials-text{
+    color: orange
+}
+.name{
+    color: orange
+}
+.status{
+    color: white
+}
+.about-us{
+    color: white
+}
+.reviews{
+    color: white;
+    word-spacing: 2px;
+    line-height: 23px
+    
+}
+.text{
+    font-size: 55px;
+    font-weight: bold;
+}
+.left-t:nth-child(3){
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+.right-t{
+    flex: 1;
+    position: relative;
+}
+.T-img{
+   position: absolute;
+   width: 300px;
+   height: 330px;
+   margin-top: 30px;
+   margin-left: 300px;
+}
+.left-arrow img{
+    position: absolute;
+    width: 40px;
+    margin-left: 60px;
+    margin-top: 200px;
+    cursor: pointer;
+}
+.right-arrow img{
+    position: absolute;
+    width: 40px;
+    margin-left: 120px;
+    margin-top: 200px;
+    cursor: pointer;
+}
+
+.right-t>:nth-child(1){
+    position: absolute;
+    width: 300px;
+    height: 330px;
+    margin-top: 10px;
+    margin-left: 280px;
+    border: 3px solid orange;
+}
+.right-t>:nth-child(2){
+    position: absolute;
+    width: 300px;
+    height: 330px;
+    margin-top: 50px;
+    margin-left: 320px;
+    background-color: orange;
+}
+.test-blur{
+    width: 500px;
+    height: 500px;
+    left: 20vw;
+
+}

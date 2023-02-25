@@ -1,0 +1,233 @@
+.hero{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+.right-side{
+  width: 75vw;
+  margin-left: 50px;
+  position: absolute;
+}
+.left-side{
+  background-color: rgb(188, 135, 38);
+  width: 25vw;
+  left: 75%;
+  position: absolute;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-items-list {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  margin-right:100px;
+  cursor: pointer;
+}
+/* .nav-items-list li:hover{
+  font-size: 20px;
+} */
+.nav-items{
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  font-size: 20px;
+}
+.nav-items:hover{
+  color:orange;
+}
+.logo img{
+  padding: 20px;
+  height:90px;
+  width: 200px;
+}
+.section-1{
+  margin: 50px 0px 50px 0px;
+  color: white;
+  background-color: grey;
+  border-radius: 20px;
+  width: fit-content;
+  padding: 15px 10px;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  
+}
+.section-1 > span{
+  z-index: 2;
+}
+.section-1 > div{
+  position: absolute;
+  height: 80%;
+  width: 80px;
+  background-color: orange;
+  border-radius: 20px;
+  left: 5px;
+  z-index: 1;
+}
+
+.section-2{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 70px;
+  font-weight: bolder;
+  color: white;
+}
+.section-3{
+  color: white;
+  margin-top: 20px;
+  letter-spacing: 1px;
+}
+.section-4{
+  margin-top: 40px;
+  display: flex;
+  gap: 40px;
+}
+.section-4>div{
+  display: flex;
+  flex-direction: column;
+}
+.section-4>div>span:nth-of-type(1){
+  color: white;
+  font-size: 35px;
+}
+.section-4>div>span:nth-of-type(2){
+  color: gray;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+.buttons{
+  display: flex;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+ .getStartedBtn{
+  background-color:orange;
+  width: 300px;
+  height: 40px;
+  border-radius: 8px;
+  color: white;
+  border: 1px solid orange;
+  
+}
+.learnMoreBtn{
+  width: 300px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: grey;
+  color:white;
+  border: 1px solid grey;
+}
+.learnMoreBtn:hover{
+  background-color: orange;
+}
+.getStartedBtn:hover{
+  background-color:grey;
+}
+
+
+.join-btn{
+  margin-top: 27px;
+  margin-left: 200px;
+  background-color: white;
+  width: fit-content;
+}
+.join-btn>button{
+  color: black;
+  padding: 10px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+.join-btn>button:hover{
+  background-color: gray;
+  color: white;
+  font-weight: bold;
+}
+.hero-img{
+  position: absolute;
+  width: 350px;
+  height: 530px;
+  right: 180px;
+  top: 150px;
+}
+.heart-img{
+  width: 45px;
+  mix-blend-mode: color-burn
+}
+.heart-rate{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+  gap: 10px;
+  background-color: rgb(224, 146, 146);
+  width: fit-content;
+  margin-left: 170px;
+  margin-top: 30px;
+}
+.rate{
+ color: rgb(139, 69, 69);
+}
+.bpm{
+ color: white;
+ font-size: 30px;
+}
+.calories-burn{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position:relative;
+  right: 300px;
+  background-color: rgb(174, 168, 168);
+  padding: 5px;
+  width: fit-content;
+  border-radius: 5px;
+}
+.graph img{
+   width: 70px;
+   height: 100px;
+   mix-blend-mode:color-burn;
+}
+.calories{
+ color: gray;
+ font-weight: bold;
+}
+.kcal{
+  color: rgb(10, 0, 19);
+  font-size: large;
+  margin-top: 10px;
+}
+.heroimg-strips{
+  position:relative;
+  right: 190px;
+  height: 330px;
+  z-index: -1;
+}
+.logo-f img{
+  width: 200px;
+  height: 60px;
+  background-color: antiquewhite;
+  padding: 10px;
+  margin-left: 200px;
+  margin-top: 200px;
+}
+.hero-blur{
+  width: 500px;
+  height: 500px;
+  left: 0;
+}
+@media screen and (max-width:768px) {
+  .hero{
+    display: flex;
+    flex-direction: column;
+    width: 100%vw;
+    
+  }
+}
+
